@@ -1,0 +1,5557 @@
+{
+  "modules": [
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/build/chunks/[root-of-the-server]__05i36w1t4lzaf._.js",
+      "dependencies": [
+        {
+          "module": "net",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "net",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "net",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/build/chunks/[root-of-the-server]__05i36w1t4lzaf._.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "stream",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/build/chunks/[root-of-the-server]__05i36w1t4lzaf._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/[externals]__17m6ccbmzlpoe._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0kybhnszo7qc1._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0q3e021yx7tt1._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0vzz9miygu22z._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__17yojysnsdj3q._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1fbhah4yzokyb._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1nqh6it1ixn6m._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1xip-gm4ldi7m._.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/build/chunks/[root-of-the-server]__1kki86fknkq7y._.js",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "url",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "url",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "fs",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/build/chunks/[root-of-the-server]__1kki86fknkq7y._.js",
+        "../../1_siteteam/asi-agent1/.size-limit.mjs",
+        "../../1_siteteam/asi-agent1/scripts/gen-license-texts.mjs",
+        "../../1_siteteam/asi-agent1/scripts/gen-mascots.mjs",
+        "../../1_siteteam/asi-agent1/serve.mjs",
+        "../../1_siteteam/asi-agent1/tests/e2e/chat.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/footer-band.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/hero-contrast.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/home.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/mascots-step1.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/pages3a.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/pixel-diff.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/products.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/replica-shot.spec.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "path",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/build/chunks/[root-of-the-server]__1kki86fknkq7y._.js",
+        "../../1_siteteam/asi-agent1/.next/build/chunks/[turbopack]_runtime.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/[turbopack]_runtime.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/[externals]__17m6ccbmzlpoe._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0kybhnszo7qc1._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0q3e021yx7tt1._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0vzz9miygu22z._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__17yojysnsdj3q._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1fbhah4yzokyb._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1nqh6it1ixn6m._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1xip-gm4ldi7m._.js",
+        "../../1_siteteam/asi-agent1/serve.mjs",
+        "../../1_siteteam/asi-agent1/tests/e2e/replica-shot.spec.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "url",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/build/chunks/[root-of-the-server]__1kki86fknkq7y._.js",
+        "../../1_siteteam/asi-agent1/.next/build/chunks/[turbopack]_runtime.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/[turbopack]_runtime.js",
+        "../../1_siteteam/asi-agent1/serve.mjs"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/build/chunks/[turbopack-node]_transforms_postcss_ts_1gfkiq9iz8yb8._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/build/chunks/[turbopack]_runtime.js",
+      "dependencies": [
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "url",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "url",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/build/chunks/pool_entry-[turbopack-node]_transforms_postcss_ts_0tp-k2vy8nj6i._.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/build/chunks/pool_entry-[turbopack-node]_transforms_postcss_ts_0tp-k2vy8nj6i._.js",
+      "dependencies": [
+        {
+          "module": "./[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/build/chunks/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/required-server-files.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/_global-error/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+      "dependencies": [
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "url",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "url",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "worker_threads",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "worker_threads",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/server/app/_global-error/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/_not-found/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/about/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/buhgalter/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/credits/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/demo/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/logist/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/mascots/preview/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/privacy/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/team/page.js",
+        "../../1_siteteam/asi-agent1/.next/server/app/tender/page.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "worker_threads",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/[turbopack]_runtime.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/_global-error/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/_not-found/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/_not-found/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/about/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/about/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/buhgalter/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/buhgalter/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/credits/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/credits/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/demo/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/demo/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/icon.svg/route.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/[turbopack]_runtime.js",
+      "dependencies": [
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "url",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "url",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "worker_threads",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "worker_threads",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/server/app/icon.svg/route.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/logist/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/logist/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/mascots/preview/page.js",
+      "dependencies": [
+        {
+          "module": "../../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/mascots/preview/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/page.js",
+      "dependencies": [
+        {
+          "module": "../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/privacy/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/privacy/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/team/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/team/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/tender/page.js",
+      "dependencies": [
+        {
+          "module": "../../chunks/ssr/[turbopack]_runtime.js",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "require"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[turbopack]_runtime.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/app/tender/page_client-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/[externals]__17m6ccbmzlpoe._.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "crypto",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/server/chunks/[externals]__17m6ccbmzlpoe._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0kybhnszo7qc1._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0q3e021yx7tt1._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0vzz9miygu22z._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__17yojysnsdj3q._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1fbhah4yzokyb._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1nqh6it1ixn6m._.js",
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1xip-gm4ldi7m._.js",
+        "../../1_siteteam/asi-agent1/server/dist/gigachat.js",
+        "../../1_siteteam/asi-agent1/server/src/gigachat.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/[root-of-the-server]__0e1syarnzyj23._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/_next-internal_server_app_icon_svg_route_actions_1r2h_ubdhjtcp.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0kybhnszo7qc1._.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0py1t7q9ntzgc._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0q3e021yx7tt1._.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__0vzz9miygu22z._.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__10zxpjw4ps9uh._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__17yojysnsdj3q._.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1cf6qt9agg_9-._.js",
+      "dependencies": [
+        {
+          "module": "util",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "util",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "zlib",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "zlib",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "util",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1cf6qt9agg_9-._.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "zlib",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "require"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1cf6qt9agg_9-._.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1eh8q2zhr7qrk._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1fbhah4yzokyb._.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1jpcqm-o9b9zp._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1nqh6it1ixn6m._.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/[root-of-the-server]__1xip-gm4ldi7m._.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "stream",
+          "moduleSystem": "cjs",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "require"
+          ],
+          "protocol": "node:",
+          "resolved": "stream",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_0_tnmijjx9mri._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_0tcqq0ozfifrj._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_10kabva17sqih._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app__global-error_page_actions_0zi5s8-psc_d2.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app__not-found_page_actions_0pt47yrisjoev.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_about_page_actions_0xvgj076vz0b3.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_buhgalter_page_actions_0_bvn0cxrthou.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_credits_page_actions_0hgbs2b_g_-v5.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_demo_page_actions_02rhwpznkipnw.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_logist_page_actions_1iudgy_s2gfli.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_mascots_preview_page_actions_0bp248aq22xy4.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_page_actions_0hhsz1jew5ls7.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_privacy_page_actions_0_hxzrkksgwdo.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_team_page_actions_1u83rj4pyxs5l.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/_next-internal_server_app_tender_page_actions_0pl6k9m-h0ma8.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_0ej0ycv42v8n8._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_0n8igu79mvylm._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_1ft0k2esira40._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_about_page_tsx_1xxnuhxpdbz0z._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_buhgalter_page_tsx_1n20cwjelcjlk._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_components_dash-shared_tsx_1h2qas71m7tyh._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_components_lead-form_tsx_0mpktls88m9hx._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_components_product-parts_tsx_0sneepm79rw_c._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_credits_page_tsx_02vkp8vn_37ru._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_logist_page_tsx_16d4kol70-bfa._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_mascots-data_ts_1q5poioe1aac7._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_mascots_mascot_tsx_1as4-2-6-lyk4._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_privacy_page_tsx_0qi_zukw0qonm._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_team_page_tsx_1mgq60x66m5ar._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_template_tsx_0712a6xpcbdpi._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/chunks/ssr/app_tender_page_tsx_143av8yyw14g9._.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/interception-route-rewrite-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/middleware-build-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/next-font-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/server/server-reference-manifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/-qNOD078JLAx3vt1sWe4M/_buildManifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/-qNOD078JLAx3vt1sWe4M/_clientMiddlewareManifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/-qNOD078JLAx3vt1sWe4M/_ssgManifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/0cz1d0mv5g_q7.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/0umf92h1sb77c.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/1nb243c-rlh9w.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/1x6obpmlu1_c2.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/2-w6qabpsjmsv.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/2a1utdk33xq-y.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/2khxl0v1q4i6n.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/2r4s4h5xul1n-.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/312e4d5edoko7.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/3khyqw-9l82vo.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/3xm31rx43wm0m.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/static/chunks/turbopack-3-ry682tkyiqk.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/types/cache-life.d.ts",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/types/root-params.d.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/next-env.d.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/types/routes.d.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/next-env.d.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.next/types/validator.ts",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/.size-limit.mjs",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/about/page.tsx",
+      "dependencies": [
+        {
+          "module": "../components/product-parts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/product-parts.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../pages3a.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/pages3a.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/pages3a.css",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "local",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/about/page.tsx",
+        "../../1_siteteam/asi-agent1/app/credits/page.tsx",
+        "../../1_siteteam/asi-agent1/app/demo/page.tsx",
+        "../../1_siteteam/asi-agent1/app/privacy/page.tsx",
+        "../../1_siteteam/asi-agent1/app/team/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/product-parts.tsx",
+      "dependencies": [
+        {
+          "module": "./mascot",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/mascot.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/about/page.tsx",
+        "../../1_siteteam/asi-agent1/app/buhgalter/page.tsx",
+        "../../1_siteteam/asi-agent1/app/logist/page.tsx",
+        "../../1_siteteam/asi-agent1/app/team/page.tsx",
+        "../../1_siteteam/asi-agent1/app/tender/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/mascot.tsx",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/components/product-parts.tsx",
+        "../../1_siteteam/asi-agent1/app/page.tsx",
+        "../../1_siteteam/asi-agent1/app/team/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/about/page.tsx",
+        "../../1_siteteam/asi-agent1/app/components/product-parts.tsx",
+        "../../1_siteteam/asi-agent1/app/buhgalter/page.tsx",
+        "../../1_siteteam/asi-agent1/app/credits/page.tsx",
+        "../../1_siteteam/asi-agent1/app/demo/page.tsx",
+        "../../1_siteteam/asi-agent1/app/logist/page.tsx",
+        "../../1_siteteam/asi-agent1/app/page.tsx",
+        "../../1_siteteam/asi-agent1/app/privacy/page.tsx",
+        "../../1_siteteam/asi-agent1/app/team/page.tsx",
+        "../../1_siteteam/asi-agent1/app/tender/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/buhgalter/page.tsx",
+      "dependencies": [
+        {
+          "module": "../components/dash-buhgalter",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/dash-buhgalter.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/product-parts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/product-parts.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../mascots-data",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/mascots-data.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../product.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/product.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/product.css",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "local",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/buhgalter/page.tsx",
+        "../../1_siteteam/asi-agent1/app/logist/page.tsx",
+        "../../1_siteteam/asi-agent1/app/tender/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/dash-buhgalter.tsx",
+      "dependencies": [
+        {
+          "module": "./dash-shared",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/dash-shared.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/buhgalter/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/dash-shared.tsx",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/components/dash-buhgalter.tsx",
+        "../../1_siteteam/asi-agent1/app/components/dash-logist.tsx",
+        "../../1_siteteam/asi-agent1/app/components/dash-tender.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/mascots-data.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/buhgalter/page.tsx",
+        "../../1_siteteam/asi-agent1/app/logist/page.tsx",
+        "../../1_siteteam/asi-agent1/app/page.tsx",
+        "../../1_siteteam/asi-agent1/app/team/page.tsx",
+        "../../1_siteteam/asi-agent1/app/tender/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/ask-asi-shared.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/components/ask-asi.tsx",
+        "../../1_siteteam/asi-agent1/app/components/chat-dock.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/ask-asi.tsx",
+      "dependencies": [
+        {
+          "module": "./ask-asi-shared",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/ask-asi-shared.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./chat-dock",
+          "moduleSystem": "es6",
+          "dynamic": true,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "dynamic-import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/chat-dock.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/chat-dock.tsx",
+      "dependencies": [
+        {
+          "module": "./ask-asi-shared",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/ask-asi-shared.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/components/ask-asi.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/dash-logist.tsx",
+      "dependencies": [
+        {
+          "module": "./dash-shared",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/dash-shared.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/logist/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/dash-tender.tsx",
+      "dependencies": [
+        {
+          "module": "./dash-shared",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/dash-shared.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/tender/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/dashboard-fragment.tsx",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/footer.tsx",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/layout.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/lead-form.tsx",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/demo/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/rail.tsx",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/layout.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/components/topbar.tsx",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/layout.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/credits/page.tsx",
+      "dependencies": [
+        {
+          "module": "../components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../license-texts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/license-texts.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../pages3a.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/pages3a.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/license-texts.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/credits/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/demo/page.tsx",
+      "dependencies": [
+        {
+          "module": "../components/lead-form",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/lead-form.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../demo.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/demo.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../pages3a.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/pages3a.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/demo.css",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "local",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/demo/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/fonts.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/layout.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/layout.tsx",
+      "dependencies": [
+        {
+          "module": "../assets/mascots-dots/mascot.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/assets/mascots-dots/mascot.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./components/footer",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/footer.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./components/rail",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/rail.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./components/topbar",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/topbar.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./fonts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/fonts.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./globals.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/globals.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/assets/mascots-dots/mascot.css",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "local",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/layout.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/globals.css",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "local",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/layout.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/logist/page.tsx",
+      "dependencies": [
+        {
+          "module": "../components/dash-logist",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/dash-logist.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/product-parts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/product-parts.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../mascots-data",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/mascots-data.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../product.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/product.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/mascots/characters.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/mascots/mascot.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/mascots/mascot.tsx",
+      "dependencies": [
+        {
+          "module": "./characters",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/mascots/characters.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./mascot.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/mascots/mascot.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/mascots/preview/page.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/mascots/mascot.css",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "local",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/app/mascots/mascot.tsx"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/mascots/preview/page.tsx",
+      "dependencies": [
+        {
+          "module": "../mascot",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/mascots/mascot.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/page.tsx",
+      "dependencies": [
+        {
+          "module": "./components/ask-asi",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/ask-asi.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./components/dashboard-fragment",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/dashboard-fragment.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./components/mascot",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/mascot.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./mascots-data",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/mascots-data.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/privacy/page.tsx",
+      "dependencies": [
+        {
+          "module": "../components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../pages3a.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/pages3a.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/team/page.tsx",
+      "dependencies": [
+        {
+          "module": "../components/mascot",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/mascot.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/product-parts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/product-parts.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../mascots-data",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/mascots-data.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../pages3a.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/pages3a.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/template.tsx",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/app/tender/page.tsx",
+      "dependencies": [
+        {
+          "module": "../components/dash-tender",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/dash-tender.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/product-parts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/product-parts.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../components/reveal",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/components/reveal.tsx",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../mascots-data",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/mascots-data.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../product.css",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/app/product.css",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/artifacts/inspect-dash.mjs",
+      "dependencies": [
+        {
+          "module": "child_process",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "child_process",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "child_process",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/artifacts/inspect-dash.mjs",
+        "../../1_siteteam/asi-agent1/artifacts/measure-fix.mjs",
+        "../../1_siteteam/asi-agent1/serve.mjs"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/artifacts/measure-fix.mjs",
+      "dependencies": [
+        {
+          "module": "child_process",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "child_process",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "fs/promises",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs/promises",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "fs/promises",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/artifacts/measure-fix.mjs",
+        "../../1_siteteam/asi-agent1/serve.mjs"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/eslint.config.mjs",
+      "dependencies": [
+        {
+          "module": "eslint-config-next/core-web-vitals",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "unknown"
+          ],
+          "resolved": "eslint-config-next/core-web-vitals",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": true,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "eslint-config-next/typescript",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "unknown"
+          ],
+          "resolved": "eslint-config-next/typescript",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": true,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "eslint/config",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "unknown"
+          ],
+          "resolved": "eslint/config",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": true,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "eslint-config-next/core-web-vitals",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": true,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "unknown"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/eslint.config.mjs"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "eslint-config-next/typescript",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": true,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "unknown"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/eslint.config.mjs"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "eslint/config",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": true,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "unknown"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/eslint.config.mjs"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/next-env.d.ts",
+      "dependencies": [
+        {
+          "module": "./.next/types/root-params.d.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/types/root-params.d.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./.next/types/routes.d.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/.next/types/routes.d.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/next.config.ts",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/-qNOD078JLAx3vt1sWe4M/_buildManifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/-qNOD078JLAx3vt1sWe4M/_clientMiddlewareManifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/-qNOD078JLAx3vt1sWe4M/_ssgManifest.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/0umf92h1sb77c.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/1nb243c-rlh9w.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/1x6obpmlu1_c2.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/2-w6qabpsjmsv.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/2a1utdk33xq-y.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/2khxl0v1q4i6n.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/2r4s4h5xul1n-.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/312e4d5edoko7.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/3khyqw-9l82vo.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/3xm31rx43wm0m.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/out/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/playwright.config.ts",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/postcss.config.mjs",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/scripts/gen-license-texts.mjs",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/scripts/gen-mascots.mjs",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/serve.mjs",
+      "dependencies": [
+        {
+          "module": "child_process",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "child_process",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "fs/promises",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs/promises",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "http",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "http",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "url",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "url",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "http",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/serve.mjs",
+        "../../1_siteteam/asi-agent1/server/tests/server.test.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/app.js",
+      "dependencies": [
+        {
+          "module": "./chat.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/chat.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./email.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/email.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./http.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/http.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./lead.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/lead.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./limits.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/limits.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./logger.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/logger.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "hono/body-limit",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "unknown"
+          ],
+          "resolved": "hono/body-limit",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": true,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "hono/cors",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "unknown"
+          ],
+          "resolved": "hono/cors",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": true,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/index.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "hono/body-limit",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": true,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "unknown"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/app.js",
+        "../../1_siteteam/asi-agent1/server/src/app.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "hono/cors",
+      "followable": false,
+      "coreModule": false,
+      "couldNotResolve": true,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "unknown"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/app.js",
+        "../../1_siteteam/asi-agent1/server/src/app.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/chat.js",
+      "dependencies": [
+        {
+          "module": "./gigachat.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/gigachat.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./http.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/http.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./knowledge.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/knowledge.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/app.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/gigachat.js",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/chat.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/http.js",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/app.js",
+        "../../1_siteteam/asi-agent1/server/dist/chat.js",
+        "../../1_siteteam/asi-agent1/server/dist/lead.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/knowledge.js",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/chat.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/email.js",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/app.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/lead.js",
+      "dependencies": [
+        {
+          "module": "./http.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/http.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/app.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/limits.js",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/app.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/logger.js",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/app.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/config.js",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/dist/index.js"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/dist/index.js",
+      "dependencies": [
+        {
+          "module": "./app.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/app.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./config.js",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/dist/config.js",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/app.ts",
+      "dependencies": [
+        {
+          "module": "./chat.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/chat.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./email.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/email.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./http.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/http.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./lead.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/lead.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./limits.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/limits.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./logger.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/logger.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "hono/body-limit",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "unknown"
+          ],
+          "resolved": "hono/body-limit",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": true,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "hono/cors",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "unknown"
+          ],
+          "resolved": "hono/cors",
+          "coreModule": false,
+          "followable": false,
+          "couldNotResolve": true,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/index.ts",
+        "../../1_siteteam/asi-agent1/server/tests/helpers.ts",
+        "../../1_siteteam/asi-agent1/server/tests/server.test.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/chat.ts",
+      "dependencies": [
+        {
+          "module": "./gigachat.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/gigachat.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./http.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/http.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./knowledge.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/knowledge.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/app.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/gigachat.ts",
+      "dependencies": [
+        {
+          "module": "crypto",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "crypto",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/chat.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/http.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/app.ts",
+        "../../1_siteteam/asi-agent1/server/src/chat.ts",
+        "../../1_siteteam/asi-agent1/server/src/lead.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/knowledge.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/chat.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/email.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/app.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/lead.ts",
+      "dependencies": [
+        {
+          "module": "./http.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/http.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/app.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/limits.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/app.ts",
+        "../../1_siteteam/asi-agent1/server/tests/limits.test.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/logger.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/app.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/config.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/src/index.ts",
+        "../../1_siteteam/asi-agent1/server/tests/helpers.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/src/index.ts",
+      "dependencies": [
+        {
+          "module": "./app.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/app.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./config.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/config.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/tests/chat.test.ts",
+      "dependencies": [
+        {
+          "module": "./helpers.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/tests/helpers.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "assert/strict",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "assert/strict",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "node:test",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "node:test",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "assert/strict",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/tests/chat.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/cors.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/health.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/lead.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/limits.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/server.test.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "node:test",
+      "followable": false,
+      "coreModule": true,
+      "couldNotResolve": false,
+      "matchesDoNotFollow": false,
+      "dependencyTypes": [
+        "core",
+        "import"
+      ],
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/tests/chat.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/cors.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/health.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/lead.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/limits.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/server.test.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/tests/helpers.ts",
+      "dependencies": [
+        {
+          "module": "../src/app.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/app.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "../src/config.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/config.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/server/tests/chat.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/cors.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/health.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/lead.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/limits.test.ts",
+        "../../1_siteteam/asi-agent1/server/tests/server.test.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/tests/cors.test.ts",
+      "dependencies": [
+        {
+          "module": "./helpers.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/tests/helpers.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "assert/strict",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "assert/strict",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "node:test",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "node:test",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/tests/health.test.ts",
+      "dependencies": [
+        {
+          "module": "./helpers.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/tests/helpers.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "assert/strict",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "assert/strict",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "node:test",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "node:test",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/tests/lead.test.ts",
+      "dependencies": [
+        {
+          "module": "./helpers.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/tests/helpers.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "assert/strict",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "assert/strict",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "node:test",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "node:test",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/tests/limits.test.ts",
+      "dependencies": [
+        {
+          "module": "../src/limits.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/limits.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./helpers.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/tests/helpers.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "assert/strict",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "assert/strict",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "node:test",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "node:test",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/server/tests/server.test.ts",
+      "dependencies": [
+        {
+          "module": "../src/app.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/src/app.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "./helpers.ts",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/server/tests/helpers.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "assert/strict",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "assert/strict",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "http",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "http",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "node:test",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "node:test",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/_contrast.ts",
+      "dependencies": [],
+      "dependents": [
+        "../../1_siteteam/asi-agent1/tests/e2e/footer-band.spec.ts",
+        "../../1_siteteam/asi-agent1/tests/e2e/hero-contrast.spec.ts"
+      ],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/a11y.spec.ts",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/chat.spec.ts",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/demo.spec.ts",
+      "dependencies": [],
+      "dependents": [],
+      "orphan": true,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/footer-band.spec.ts",
+      "dependencies": [
+        {
+          "module": "./_contrast",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/tests/e2e/_contrast.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/hero-contrast.spec.ts",
+      "dependencies": [
+        {
+          "module": "./_contrast",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "local",
+            "import"
+          ],
+          "resolved": "../../1_siteteam/asi-agent1/tests/e2e/_contrast.ts",
+          "coreModule": false,
+          "followable": true,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/home.spec.ts",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/mascots-step1.spec.ts",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/pages3a.spec.ts",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/pixel-diff.spec.ts",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/products.spec.ts",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    },
+    {
+      "source": "../../1_siteteam/asi-agent1/tests/e2e/replica-shot.spec.ts",
+      "dependencies": [
+        {
+          "module": "fs",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "fs",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        },
+        {
+          "module": "path",
+          "moduleSystem": "es6",
+          "dynamic": false,
+          "exoticallyRequired": false,
+          "dependencyTypes": [
+            "core",
+            "import"
+          ],
+          "protocol": "node:",
+          "resolved": "path",
+          "coreModule": true,
+          "followable": false,
+          "couldNotResolve": false,
+          "matchesDoNotFollow": false,
+          "circular": false,
+          "valid": true
+        }
+      ],
+      "dependents": [],
+      "orphan": false,
+      "valid": true
+    }
+  ],
+  "summary": {
+    "violations": [],
+    "error": 0,
+    "warn": 0,
+    "info": 0,
+    "ignore": 0,
+    "advisedExitCode": 0,
+    "totalCruised": 226,
+    "totalDependenciesCruised": 189,
+    "optionsUsed": {
+      "baseDir": "E:\\1_Products\\arch-mcp",
+      "combinedDependencies": false,
+      "detectImportsInAmbientModules": false,
+      "detectJSDocImports": false,
+      "detectProcessBuiltinModuleCalls": false,
+      "exclude": {
+        "path": "node_modules"
+      },
+      "exoticRequireStrings": [],
+      "externalModuleResolutionStrategy": "node_modules",
+      "metrics": false,
+      "moduleSystems": [
+        "es6",
+        "cjs",
+        "tsd",
+        "amd"
+      ],
+      "outputTo": "-",
+      "outputType": "json",
+      "preserveSymlinks": false,
+      "skipAnalysisNotInRules": false,
+      "tsPreCompilationDeps": false,
+      "args": "..\\..\\1_siteteam\\asi-agent1"
+    },
+    "environment": {
+      "version": "18.7.0",
+      "nodeVersionSupported": "^22||^24||>=26",
+      "nodeVersionFound": "v24.20.0",
+      "osVersionFound": "x64 win32@10.0.19045",
+      "transpilersFound": [
+        {
+          "name": "javascript",
+          "version": "*",
+          "available": true,
+          "currentVersion": "acorn@8.19.0"
+        },
+        {
+          "name": "babel",
+          "version": ">=7.0.0 <8.0.0",
+          "available": false,
+          "currentVersion": "-"
+        },
+        {
+          "name": "coffee-script",
+          "version": ">=1.0.0 <2.0.0",
+          "available": false,
+          "currentVersion": "-"
+        },
+        {
+          "name": "coffeescript",
+          "version": ">=1.0.0 <3.0.0",
+          "available": false,
+          "currentVersion": "-"
+        },
+        {
+          "name": "livescript",
+          "version": ">=1.0.0 <2.0.0",
+          "available": false,
+          "currentVersion": "-"
+        },
+        {
+          "name": "svelte",
+          "version": ">=3.0.0 <6.0.0",
+          "available": false,
+          "currentVersion": "-"
+        },
+        {
+          "name": "swc",
+          "version": ">=1.0.0 <2.0.0",
+          "available": false,
+          "currentVersion": "-"
+        },
+        {
+          "name": "typescript",
+          "version": ">=2.0.0 <7.0.0",
+          "available": true,
+          "currentVersion": "typescript@5.9.3"
+        },
+        {
+          "name": "vue-template-compiler",
+          "version": ">=2.0.0 <3.0.0",
+          "available": false,
+          "currentVersion": "-"
+        },
+        {
+          "name": "@vue/compiler-sfc",
+          "version": ">=3.0.0 <4.0.0",
+          "available": false,
+          "currentVersion": "-"
+        }
+      ],
+      "extensionsFound": [
+        {
+          "extension": ".js",
+          "available": true
+        },
+        {
+          "extension": ".cjs",
+          "available": true
+        },
+        {
+          "extension": ".mjs",
+          "available": true
+        },
+        {
+          "extension": ".jsx",
+          "available": true
+        },
+        {
+          "extension": ".ts",
+          "available": true
+        },
+        {
+          "extension": ".tsx",
+          "available": true
+        },
+        {
+          "extension": ".d.ts",
+          "available": true
+        },
+        {
+          "extension": ".cts",
+          "available": true
+        },
+        {
+          "extension": ".d.cts",
+          "available": true
+        },
+        {
+          "extension": ".mts",
+          "available": true
+        },
+        {
+          "extension": ".d.mts",
+          "available": true
+        },
+        {
+          "extension": ".vue",
+          "available": false
+        },
+        {
+          "extension": ".svelte",
+          "available": false
+        },
+        {
+          "extension": ".ls",
+          "available": false
+        },
+        {
+          "extension": ".coffee",
+          "available": false
+        },
+        {
+          "extension": ".litcoffee",
+          "available": false
+        },
+        {
+          "extension": ".coffee.md",
+          "available": false
+        },
+        {
+          "extension": ".csx",
+          "available": false
+        },
+        {
+          "extension": ".cjsx",
+          "available": false
+        }
+      ]
+    }
+  }
+}

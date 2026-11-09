@@ -1,0 +1,170 @@
+import { Server } from "@modelcontextprotocol/sdk/server/index.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import {
+  CallToolRequestSchema,
+  ListToolsRequestSchema,
+} from "@modelcontextprotocol/sdk/types.js";
+import { buildProvenance, toJsonResult } from "./provenance.ts";
+import { toErrorEnvelope } from "./core/errors.ts";
+import { runTool, toolResultToMcp, type ToolArgs } from "./server_core.ts";
+
+const SERVER_INFO = { name: "arch-mcp", version: "0.1.0" };
+
+/** Контракт 8 инструментов (ТЗ рев.3, п.1); stacks/get_graph — переходные алиасы без листинга (до v1.1). */
+const TOOLS = [
+  {
+    name: "arch_status",
+    description:
+      "Workspace status: detected stacks, git info, graph index coverage and adapter availability. Read-only.",
+    inputSchema: {
+      type: "object" as const,
+      properties: {
+        workspace: { type: "string", description: "Workspace path; omitted = git root or nearest manifest from cwd" },
+        max_bytes: { type: "integer", description: "Response budget in bytes (default 65536, max 1048576)" },
+      },
+    },
+  },
+  {
+    name: "arch_snapshot",
+    description:
+      "Architectural snapshot: stacks, git, graph and snapshot_id (scope=summary|full). Read-only.",
+    inputSchema: {
+      type: "object" as const,
+      properties: {
+        workspace: { type: "string", description: "Workspace path; omitted = discovery from cwd" },
+        scope: { type: "string", enum: ["summary", "full"], description: "summary (default) or full graph" },
+        max_bytes: { type: "integer", description: "Response budget in bytes (default 65536, max 1048576)" },
+      },
+    },
+  },
+  {
+    name: "search",
+    description:
+      "Search graph nodes by case-insensitive substring (kind=file|dir|test|all|module|package|symbol|table|view|api|config|doc|service|container). Read-only.",
+    inputSchema: {
+      type: "object" as const,
+      properties: {
+        workspace: { type: "string", description: "Workspace path; omitted = discovery from cwd" },
+        query: { type: "string", description: "Substring to search for" },
+        kind: {
+          type: "string",
+          enum: ["file", "dir", "test", "all", "module", "package", "symbol", "table", "view", "api", "config", "doc", "service", "container"],
+          description: "Result kind (default file)",
+        },
+        max_bytes: { type: "integer", description: "Response budget in bytes (default 65536, max 1048576)" },
+      },
+      required: ["query"],
+    },
+  },
+  {
+    name: "focus",
+    description:
+      "Incoming and outgoing edges of one node with types; sqlglot lineage edges additionally carry columns (from/to pairs), stripped from get_graph/arch_snapshot. Type-only edges excluded unless include_type_only=true. Read-only.",
+    inputSchema: {
+      type: "object" as const,
+      properties: {
+        workspace: { type: "string", description: "Workspace path; omitted = discovery from cwd" },
+        node: { type: "string", description: "Node path: absolute inside workspace or repo-relative POSIX" },
+        limit: { type: "integer", description: "Max edges per list (default 50, max 200)" },
+        max_bytes: { type: "integer", description: "Response budget in bytes (default 65536, max 1048576)" },
+        include_type_only: { type: "boolean", description: "Include type-only edges (default false)" },
+      },
+      required: ["node"],
+    },
+  },
+  {
+    name: "reaches",
+    description: "Reverse reachability: which nodes depend on target within max_depth. Read-only.",
+    inputSchema: {
+      type: "object" as const,
+      properties: {
+        workspace: { type: "string", description: "Workspace path; omitted = discovery from cwd" },
+        target: { type: "string", description: "Target node path: absolute inside workspace or repo-relative POSIX" },
+        max_depth: { type: "integer", description: "Max reverse edges (default 10, integer >= 1)" },
+        max_bytes: { type: "integer", description: "Response budget in bytes (default 65536, max 1048576)" },
+        include_type_only: { type: "boolean", description: "Include type-only edges (default false)" },
+      },
+      required: ["target"],
+    },
+  },
+  {
+    name: "impact",
+    description:
+      "What a change affects: transitive dependents of changed files within depth (type-only excluded by default). Read-only.",
+    inputSchema: {
+      type: "object" as const,
+      properties: {
+        workspace: { type: "string", description: "Workspace path; omitted = discovery from cwd" },
+        changed: { type: "array", items: { type: "string" }, description: "Changed paths inside the workspace" },
+        depth: { type: "integer", description: "Max reverse edges (default 10, integer >= 1)" },
+        max_bytes: { type: "integer", description: "Response budget in bytes (default 65536, max 1048576)" },
+        include_type_only: { type: "boolean", description: "Include type-only edges (default false)" },
+      },
+      required: ["changed"],
+    },
+  },
+  {
+    name: "affected_tests",
+    description: "Test files transitively depending on changed files (type-only excluded by default). Read-only.",
+    inputSchema: {
+      type: "object" as const,
+      properties: {
+        workspace: { type: "string", description: "Workspace path; omitted = discovery from cwd" },
+        changed: { type: "array", items: { type: "string" }, description: "Changed paths inside the workspace" },
+        max_bytes: { type: "integer", description: "Response budget in bytes (default 65536, max 1048576)" },
+        include_type_only: { type: "boolean", description: "Include type-only edges (default false)" },
+      },
+      required: ["changed"],
+    },
+  },
+  {
+    name: "arch_diff",
+    description:
+      "Diff two snapshots (current | git HEAD | snapshot_id): added/removed nodes and edges. Read-only.",
+    inputSchema: {
+      type: "object" as const,
+      properties: {
+        workspace: { type: "string", description: "Workspace path; omitted = discovery from cwd" },
+        from: { type: "string", description: 'Baseline ref: "current" | git HEAD | snapshot_id' },
+        to: { type: "string", description: 'Target ref: "current" | git HEAD | snapshot_id' },
+        max_bytes: { type: "integer", description: "Response budget in bytes (default 65536, max 1048576)" },
+      },
+      required: ["from", "to"],
+    },
+  },
+];
+
+const server = new Server(SERVER_INFO, {
+  capabilities: { tools: {} },
+});
+
+server.setRequestHandler(ListToolsRequestSchema, async () => ({ tools: TOOLS }));
+
+server.setRequestHandler(CallToolRequestSchema, async (request) => {
+  const name = request.params.name;
+  const args = (request.params.arguments ?? {}) as ToolArgs;
+  try {
+    const ctx = await runTool(name, args);
+    return toolResultToMcp(ctx);
+  } catch (err) {
+    const envelope = toErrorEnvelope(err);
+    const cwd =
+      typeof args.workspace === "string" && args.workspace.trim() !== ""
+        ? args.workspace
+        : typeof args.repo === "string" && args.repo.trim() !== ""
+          ? args.repo
+          : String(process.cwd());
+    const provenance = buildProvenance({ command: `${name}`, cwd, exitCode: 1 });
+    return toJsonResult(envelope, provenance, true);
+  }
+});
+
+async function main(): Promise<void> {
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+}
+
+main().catch((err: unknown) => {
+  console.error("arch-mcp failed to start:", err);
+  process.exit(1);
+});
