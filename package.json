@@ -3,19 +3,39 @@
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
-  "description": "MCP-сервер архитектурного снимка репозитория: stacks, arch_snapshot, get_graph (stdio)",
+  "description": "MCP server that maps a repository into a graph of files, imports, SQL, API contracts and infra, and answers what a change breaks (stdio)",
   "engines": {
     "node": ">=22"
   },
   "bin": {
-    "arch-mcp": "dist/server.mjs"
+    "arch-mcp": "dist/server.mjs",
+    "arch-mcp-cli": "dist/cli.mjs"
   },
+  "files": [
+    "dist/*.mjs",
+    "grammars/*.wasm",
+    "grammars/LICENSE",
+    "grammars/SHA256SUMS",
+    "python/sqlglot_bridge.py",
+    "THIRD_PARTY_NOTICES.md",
+    "README.ru.md"
+  ],
   "scripts": {
     "build": "node esbuild.mjs",
     "prebootstrap": "node esbuild.mjs",
     "bootstrap": "node dist/cli.mjs bootstrap",
-    "test": "node esbuild.mjs && node --test \"tests/*.test.mjs\""
+    "test": "node esbuild.mjs && node --test \"tests/*.test.mjs\"",
+    "prepublishOnly": "node esbuild.mjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klaus101-ai/arch-mcp.git"
+  },
+  "homepage": "https://github.com/Klaus101-ai/arch-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/Klaus101-ai/arch-mcp/issues"
+  },
+  "keywords": ["mcp", "mcp-server", "architecture", "dependency-graph", "static-analysis", "tree-sitter", "sql", "typescript", "nodejs"],
   "devDependencies": {
     "@modelcontextprotocol/sdk": "1.32.2",
     "@repomix/tree-sitter-wasms": "0.1.17",

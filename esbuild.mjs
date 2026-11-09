@@ -18,7 +18,7 @@ const common = {
   // createRequire от dist-файла резолвит bare-спекификаторы (util, path, …)
   // и пакеты из node_modules; внутренние модули бандла идут статически.
   banner: {
-    js: "import { createRequire as __archCreateRequire } from \"node:module\";\nconst require = __archCreateRequire(import.meta.url);",
+    js: "#!/usr/bin/env node\nimport { createRequire as __archCreateRequire } from \"node:module\";\nconst require = __archCreateRequire(import.meta.url);",
   },
   logLevel: "info",
 };
