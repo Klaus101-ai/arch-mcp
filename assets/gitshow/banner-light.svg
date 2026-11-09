@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="bn-title bn-desc">
+  <title id="bn-title">arch-mcp — architecture map server for your repository</title>
+  <desc id="bn-desc">A light terminal window titled arch-mcp · stdio shows the command line "$ arch-mcp", the promise "Maps your repo's architecture — files, imports, SQL, APIs — and shows what a change breaks." and the facts line "8 MCP tools · 22 adapters · 11 node kinds · 10 edge kinds · MIT".</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fafd"/>
+      <stop offset="0.55" stop-color="#eef4fa"/>
+      <stop offset="1" stop-color="#e6eef7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0" r="0.75">
+      <stop offset="0" stop-color="#0a8f5f" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0a8f5f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#dbe6f1" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-25%" width="120%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#7f95ad" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="32" width="1136" height="256" rx="16" fill="#ffffff" stroke="#c6d5e4" stroke-width="1.5"/>
+  </g>
+  <path d="M88 32H1192A16 16 0 0 1 1208 48V70H72V48A16 16 0 0 1 88 32Z" fill="#eef4fa"/>
+  <line x1="72" y1="70" x2="1208" y2="70" stroke="#cfdcea" stroke-width="1"/>
+  <circle cx="104" cy="51" r="5.5" fill="#ff5f57"/>
+  <circle cx="126" cy="51" r="5.5" fill="#febc2e"/>
+  <circle cx="148" cy="51" r="5.5" fill="#28c840"/>
+  <text x="640" y="56" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5b6f85">arch-mcp · stdio</text>
+
+  <text id="hero" x="640" y="152" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="64" font-weight="700" fill="#0e1926"><tspan fill="#0a8f5f">$&#160;</tspan>arch-mcp</text>
+  <rect id="caret" x="826" y="112" width="14" height="44" rx="2" fill="#0a8f5f" opacity="0.9"/>
+
+  <text id="promise1" x="640" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#2f4358">Maps your repo's architecture — files, imports, SQL, APIs —</text>
+  <text id="promise2" x="640" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#2f4358">and shows what a change breaks.</text>
+
+  <text id="facts" x="640" y="266" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" letter-spacing="0.2" fill="#56697e">8 MCP tools · 22 adapters · 11 node kinds · 10 edge kinds · MIT</text>
+</svg>
