@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="bn-title bn-desc">
-  <title id="bn-title">arch-mcp — architecture map server for your repository</title>
-  <desc id="bn-desc">A dark terminal window titled arch-mcp · stdio shows the command line "$ arch-mcp", the promise "Maps your repo's architecture — files, imports, SQL, APIs — and shows what a change breaks." and the facts line "8 MCP tools · 22 adapters · 11 node kinds · 10 edge kinds · MIT".</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="bn-title bn-desc">
+  <title id="bn-title">arch-mcp — see the whole architecture of any codebase</title>
+  <desc id="bn-desc">A dark terminal window titled "arch-mcp · stdio" shows the command line "$ arch-mcp", the headline "See the whole architecture of any codebase — and exactly what breaks before you change it" and the facts line "232 tokens for one answer · 22,360 to read the same files · 25 adapters · 11 languages".</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0a1018"/>
@@ -19,25 +19,27 @@
     </filter>
   </defs>
 
-  <rect width="1280" height="320" fill="url(#bg)"/>
-  <rect width="1280" height="320" fill="url(#grid)" opacity="0.5"/>
-  <rect width="1280" height="320" fill="url(#glow)"/>
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#grid)" opacity="0.5"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
 
   <g filter="url(#shadow)">
-    <rect x="72" y="32" width="1136" height="256" rx="16" fill="#0d1622" stroke="#223349" stroke-width="1.5"/>
+    <rect x="72" y="28" width="1136" height="344" rx="16" fill="#0d1622" stroke="#223349" stroke-width="1.5"/>
   </g>
-  <path d="M88 32H1192A16 16 0 0 1 1208 48V70H72V48A16 16 0 0 1 88 32Z" fill="#111c2a"/>
-  <line x1="72" y1="70" x2="1208" y2="70" stroke="#223349" stroke-width="1"/>
-  <circle cx="104" cy="51" r="5.5" fill="#ff5f57"/>
-  <circle cx="126" cy="51" r="5.5" fill="#febc2e"/>
-  <circle cx="148" cy="51" r="5.5" fill="#28c840"/>
-  <text x="640" y="56" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#7d92a8">arch-mcp · stdio</text>
+  <path d="M88 28H1192A16 16 0 0 1 1208 44V66H72V44A16 16 0 0 1 88 28Z" fill="#111c2a"/>
+  <line x1="72" y1="66" x2="1208" y2="66" stroke="#223349" stroke-width="1"/>
+  <circle cx="104" cy="47" r="5.5" fill="#ff5f57"/>
+  <circle cx="126" cy="47" r="5.5" fill="#febc2e"/>
+  <circle cx="148" cy="47" r="5.5" fill="#28c840"/>
+  <text x="640" y="52" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#7d92a8">arch-mcp · stdio</text>
 
-  <text id="hero" x="640" y="152" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="64" font-weight="700" fill="#e9f1fa"><tspan fill="#3ddc97">$&#160;</tspan>arch-mcp</text>
-  <rect id="caret" x="826" y="112" width="14" height="44" rx="2" fill="#3ddc97" opacity="0.9"/>
+  <text id="cmd" x="640" y="122" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="26" font-weight="700" fill="#e9f1fa"><tspan fill="#3ddc97">$&#160;</tspan>arch-mcp</text>
+  <rect id="caret" x="720" y="101" width="12" height="24" rx="2" fill="#3ddc97" opacity="0.9"/>
 
-  <text id="promise1" x="640" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#b9cade">Maps your repo's architecture — files, imports, SQL, APIs —</text>
-  <text id="promise2" x="640" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#b9cade">and shows what a change breaks.</text>
+  <text id="headline" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" text-anchor="middle">
+    <tspan x="640" y="186" fill="#e9f1fa">See the whole architecture of any codebase —</tspan>
+    <tspan x="640" y="234" fill="#3ddc97">and exactly what breaks before you change it</tspan>
+  </text>
 
-  <text id="facts" x="640" y="266" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" letter-spacing="0.2" fill="#8497ae">8 MCP tools · 22 adapters · 11 node kinds · 10 edge kinds · MIT</text>
+  <text id="facts" x="640" y="300" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" letter-spacing="0.2" fill="#8497ae">232 tokens for one answer · 22,360 to read the same files · 25 adapters · 11 languages</text>
 </svg>
